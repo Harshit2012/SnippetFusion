@@ -1,15 +1,16 @@
 document.addEventListener('DOMContentLoaded', function () {
     const snippetForm = document.getElementById('snippetForm');
     const output = document.getElementById('output');
+    const copyButton = document.getElementById('copyButton');
 
     snippetForm.addEventListener('submit', function (e) {
         e.preventDefault();
-
+        
         const language = document.getElementById('language').value;
         const description = document.getElementById('description').value;
         const trigger = document.getElementById('trigger').value;
         const snippet = document.getElementById('snippet').value;
-
+        
         let formattedSnippet;
         switch (language) {
             case 'vscode':
@@ -73,4 +74,12 @@ ${snippet}`;
 ${snippet.replace(/\n/g, '\n')}
 """`;
     }
-})
+    copyButton.addEventListener('click', function () {
+        const text = output.textContent;
+        navigator.clipboard.writeText(text).then(() => {
+            alert('Snippet copied to clipboard!');
+        }).catch(err => {
+            alert('Failed to copy snippet: ', err);
+        });
+    });
+});
