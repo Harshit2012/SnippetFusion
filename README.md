@@ -11,7 +11,6 @@ Generate snippet for vs code, sublime text, spyder and atom.
 - **Dynamic Styling**: Modern, dynamic, and responsive design with black background, linear gradients, and animations.
 - **Copy to Clipboard**: Easily copy the generated code snippet to your clipboard.
 - **Form Inputs**: Supports multi-line code snippets with textarea input.
-- **Hover Effects**: Interactive elements with hover effects and smooth transitions.
 
 ## Usage
 
