@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnippetFusion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SnippetFusion</h1>
+        <p>Generate snippet for vs code, sublime text, spyder and atom.</p>
+        <form id="snippetForm">
+            <label for="language">Select Editor:</label>
+            <select name="language" id="language">
+                <option value="vscode">VS Code</option>
+                <option value="sublime">Sublime Text</option>
+                <option value="spyder">Spyder</option>
+                <option value="atom">Atom</option>
+            </select>
+            <label for="description">Enter description:</label>
+            <input type="text" name="description" id="description">
+            <label for="trigger">Enter tab trigger:</label>
+            <input type="text" name="trigger" id="trigger">
+            <label for="snippet">Enter your code snippet:</label>
+            <textarea name="snippet" id="snippet" rows="5"></textarea>
+            <button type="submit">Generate</button>
+        </form>
+        <div id="output"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
