@@ -112,3 +112,13 @@ button:hover {
         transform: translateY(0);
     }
 }
+
+#copyButton {
+    margin-top: 10px;
+    background-color: #00aaff;
+}
+
+#copyButton:hover {
+    background-color: #0077cc;
+    box-shadow: 0 0 15px rgba(0, 119, 204, 0.7);
+}
