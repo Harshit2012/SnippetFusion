@@ -11,7 +11,7 @@
         <h1>SnippetFusion</h1>
         <p>Generate snippet for vs code, sublime text, spyder and atom.</p>
         <form id="snippetForm">
-            <label for="language">Select Editor:</label>
+            <label for="language">Select language:</label>
             <select name="language" id="language">
                 <option value="vscode">VS Code</option>
                 <option value="sublime">Sublime Text</option>
@@ -27,6 +27,7 @@
             <button type="submit">Generate</button>
         </form>
         <div id="output"></div>
+        <button id="copyButton">Copy to Clipboard</button>
     </div>
     <script src="main.js"></script>
 </body>
