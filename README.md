@@ -1,6 +1,11 @@
 # SnippetFusion
 Generate snippet for vs code, sublime text, spyder and atom.
 
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Harshit2012/SnippetFusion?tab=MIT-1-ov-file#readme)
+![GitHub Release](https://img.shields.io/github/v/release/harshit2012/SnippetFusion)
+![Forks](https://img.shields.io/github/forks/harshit2012/SnippetFusion)
+![Stars](https://img.shields.io/github/stars/harshit2012/SnippetFusion)
+
 ## Features
 - **Generate Snippets**: Create code snippets for various editors including VS Code, Sublime Text, Spyder, and Atom.
 - **Dynamic Styling**: Modern, dynamic, and responsive design with black background, linear gradients, and animations.
