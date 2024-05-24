@@ -35,4 +35,4 @@ Generate snippet for vs code, sublime text, spyder and atom.
 Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or create a pull request.
 
 ## License
-This project is licensed under the [MIT License](https://github.com/Harshit2012/SnippetFusion#MIT-1-ov-file)
+This repository is licensed under the [MIT License](https://github.com/Harshit2012/SnippetFusion#MIT-1-ov-file)
